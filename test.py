@@ -25,7 +25,7 @@ def main():
     try:
         while True:
             # Read the digital value from the pin (0 or 1).
-            digital_value = data_pin.read()
+            digital_value = data_pin.value()
 
             # Print the value.
             print("Digital value:", digital_value)
